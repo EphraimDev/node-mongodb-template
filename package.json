@@ -1,0 +1,58 @@
+{
+  "name": "node-mongodb-template",
+  "version": "1.0.0",
+  "description": "A starter template for node and mongodb app",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/register": "^7.10.3",
+    "@babel/runtime": "^7.10.3",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EphraimDev/node-mongodb-template.git"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "express",
+    "javascript"
+  ],
+  "author": "Ephraim Aigbefo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EphraimDev/node-mongodb-template/issues"
+  },
+  "homepage": "https://github.com/EphraimDev/node-mongodb-template#readme"
+}
